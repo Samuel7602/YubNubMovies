@@ -16,11 +16,3 @@
 ## Inspiration
 Thanks to this project I was able to carry out mine since it was the one that inspired me
 https://dribbble.com/shots/22427925-Movie-Streaming-App?utm_source=Clipboard_Shot&utm_campaign=musicc3&utm_content=Movie%20Streaming%20App&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=musicc3&utm_content=Movie%20Streaming%20App&utm_medium=Social_Share
-
-## Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/yubnub-movie-app.git
-
-
