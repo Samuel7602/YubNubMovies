@@ -1,0 +1,172 @@
+body {
+  background-color: #6c4f9c; 
+  font-family: Arial, sans-serif;
+  color: #000000; 
+}
+
+.product-form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #b19cd9; 
+}
+
+h1, h2 {
+  color: #000000; 
+}
+
+.btn-primary {
+  background-color: #6f42c1; 
+  border-color: #6f42c1;
+}
+
+.btn-primary:hover {
+  background-color: #5a2a91; 
+  border-color: #5a2a91;
+}
+
+.btn-warning {
+  background-color: #e000d8; 
+  border-color: #e0a800;
+}
+
+.btn-warning:hover {
+  background-color: #c4009d; 
+  border-color: #c49500;
+}
+
+.btn-danger {
+  background-color: #dc3545; 
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #b02a37; 
+  border-color: #b02a37;
+}
+
+
+.list-group-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.list-group-item:hover {
+  background-color: #f3e6f5; 
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .product-form-container {
+    padding: 15px;
+  }
+
+  h1, h2 {
+    font-size: 1.5em;
+  }
+
+  .btn-primary, .btn-warning, .btn-danger {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .list-group-item {
+    font-size: 14px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 601px) and (max-width: 768px) {
+  .product-form-container {
+    padding: 20px;
+  }
+
+  h1, h2 {
+    font-size: 1.75em;
+  }
+
+  .btn-primary, .btn-warning, .btn-danger {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .list-group-item {
+    font-size: 16px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .product-form-container {
+    padding: 20px;
+    max-width: 600px;
+  }
+
+  h1, h2 {
+    font-size: 2em;
+  }
+
+  .btn-primary, .btn-warning, .btn-danger {
+    width: 48%;
+    margin-top: 10px;
+  }
+
+  .list-group-item {
+    font-size: 18px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .product-form-container {
+    padding: 20px;
+    max-width: 700px;
+  }
+
+  h1, h2 {
+    font-size: 2.25em;
+  }
+
+  .btn-primary, .btn-warning, .btn-danger {
+    width: 48%;
+    margin-top: 10px;
+  }
+
+  .list-group-item {
+    font-size: 18px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1201px) {
+  .product-form-container {
+    padding: 30px;
+    max-width: 800px;
+  }
+
+  h1, h2 {
+    font-size: 2.5em;
+  }
+
+  .btn-primary, .btn-warning, .btn-danger {
+    width: 30%;
+    margin-top: 10px;
+  }
+
+  .list-group-item {
+    font-size: 20px;
+  }
+}

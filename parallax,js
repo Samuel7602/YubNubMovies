@@ -1,0 +1,12 @@
+
+const header = document.querySelector('.header');
+
+
+function parallaxScroll() {
+  const scrollY = window.scrollY; 
+  const speed = 0.3; 
+  header.style.transform = `translateY(${scrollY * speed}px)`; 
+}
+
+// Escuchar el evento de scroll
+window.addEventListener('scroll', parallaxScroll);

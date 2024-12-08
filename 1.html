@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pagina</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="menu container">
+      <a href="#" class="logo">Yub<span>Nub</span></a>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <script src="parallax.js"></script>
+
+
+  <section class="popular container" data-aos="fade-up">
+    <h2>Películas de terror más vistas</h2>
+
+    <div class="popular-content" data-aos="fade-left">
+      <img src="proyect-image/nightmare.jpg" alt="scream" id="scream">
+      <img src="proyect-image/terrifier.jpg" alt="">
+      <img src="proyect-image/scream.jpg" alt="">
+      <img src="proyect-image/halloween.jpg" alt="">
+      <img src="proyect-image/Jason.jpg" alt="">
+      <img src="proyect-image/exorcist.jpg" alt="">
+    </div>
+  </section>
+
+  <div class="container mt-5">
+    <h1 class="text-center">Listado de Productos</h1>
+    <table class="table table-striped mt-4">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>
+                    <a href="productos.html" class="btn btn-primary btn-sm">Gestionar Productos</a>
+                </th>
+            </tr>
+        </thead>
+        <tbody id="product-list">
+
+        </tbody>
+    </table>
+</div>
+
+
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200,
+      once: true,
+    });
+  </script>
+
+  <main class="product container" data-aos="fade-up">
+    <h2>Todas las películas</h2>
+    <div class="product-content">
+
+      <div class="product-1" data-aos="zoom-in">
+        <img src="proyect-image/wild.webp" alt="">
+        <div class="product-txt">
+          <h3>Película disponible</h3>
+          <div class="price">
+            <p>10€</p>
+            <a href="#" class="btn-2">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-1" data-aos="zoom-in">
+        <img src="proyect-image/mandalorian.jpg" alt="">
+        <div class="product-txt">
+          <h3>Película disponible</h3>
+          <div class="price">
+            <p>10€</p>
+            <a href="#" class="btn-2">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-1" data-aos="zoom-in">
+        <img src="proyect-image/boba-fett.jpg" alt="">
+        <div class="product-txt">
+          <h3>Película disponible</h3>
+          <div class="price">
+            <p>10€</p>
+            <a href="#" class="btn-2">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-1" data-aos="zoom-in">
+        <img src="proyect-image/deadpool.jpg" alt="">
+        <div class="product-txt">
+          <h3>Película disponible</h3>
+          <div class="price">
+            <p>10€</p>
+            <a href="#" class="btn-2">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-1" data-aos="zoom-in">
+        <img src="proyect-image/apes.png" alt="">
+        <div class="product-txt">
+          <h3>Película disponible</h3>
+          <div class="price">
+            <p>10€</p>
+            <a href="#" class="btn-2">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-1" data-aos="zoom-in">
+        <img src="proyect-image/LOTR.jpg" alt="">
+        <div class="product-txt">
+          <h3>Película disponible</h3>
+          <div class="price">
+            <p>10€</p>
+            <a href="#" class="btn-2">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <section class="contact container" data-aos="fade-up">
+    <div class="contact-content">
+      <h3>Suscríbete a nuestra aplicación</h3>
+      <form id="subscribe-form">
+        <input type="email" id="email" placeholder="Escribe tu correo" required>
+        <input type="submit" class="btn-3" value="Enviar">
+      </form>
+    </div>
+    <script src="email.js"></script>
+  </section>
+
+
+
+  <footer class="footer" data-aos="fade-up">
+
+    <div class="container">
+
+      <div class="footer-row">
+
+        <div class="footer-link">
+          <h4>Compañía</h4>
+          <ul>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Nuestros servicios</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Afiliate</a></li>
+          </ul>
+        </div>
+        <div class="footer-link">
+          <h4>Ayuda</h4>
+          <ul>
+            <li><a href="#">Preguntas</a></li>
+            <li><a href="#">Compras</a></li>
+            <li><a href="#">Envios</a></li>
+            <li><a href="#">Estatus de orden</a></li>
+            <li><a href="#">Pago</a></li>
+          </ul>
+        </div>
+        <div class="footer-link">
+          <h4>Tienda</h4>
+          <ul>
+            <li><a href="#">Películas</a></li>
+            <li><a href="#">Series</a></li>
+            <li><a href="#">Cortos</a></li>
+            <li><a href="#">Documentales</a></li>
+          </ul>
+        </div>
+  
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
